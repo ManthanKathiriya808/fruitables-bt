@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruitables</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="naving">
+        <div class="container-fluid position-fixed top-0 bg-light shadow z-3">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid d-flex justify-content-between align-items-center">
+                        <a class="navbar-brand" href="#">
+                            <h1 class="pr-clr fw-bolder">Fruitables</h1>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto ">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="/shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="/404.html">Shop Detail</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="/cart.html">Cart</a></li>
+                                        <li><a class="dropdown-item" href="/checkout.html">Check Out</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contact.html" tabindex="-1"
+                                        aria-current="page">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex justify-content-center align-items-center">
+                                <p class="w-auto mx-2"><i class="ri-search-line fs-2 pr-clr"></i></p>
+                                <p class="w-auto mx-2"><a href="/cart.html" class="text-decoration-none pr-clr"><i
+                                            class="ri-shopping-bag-fill fs-2"></i></a></p>
+                                <p class="w-auto mx-2"> <a href="#" class="text-decoration-none pr-clr"><i
+                                            class="ri-user-fill fs-2"></i> </a></p>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid bg-light shadow z-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <h1 class="pr-clr fw-bolder">Fruitables</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="/shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="/404.html">Shop Detail</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/cart.html">Cart</a></li>
+                                    <li><a class="dropdown-item" href="/checkout.html">Check Out</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html" tabindex="-1" aria-current="page">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex justify-content-center align-items-center">
+                            <p class="w-auto mx-2"><i class="ri-search-line fs-2 pr-clr"></i></p>
+                            <p class="w-auto mx-2"><a href="/cart.html" class="text-decoration-none pr-clr"><i
+                                        class="ri-shopping-bag-fill fs-2"></i></a></p>
+                            <p class="w-auto mx-2"> <a href="#" class="text-decoration-none pr-clr"><i
+                                        class="ri-user-fill fs-2"></i> </a></p>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid container-img">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="fs-1 fw-bolder text-white my-5">Shop</h1>
+                <div class="py-2 d-flex align-items-center justify-content-center">
+                    <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb fs-4">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item"><a href="#" class="text-white">Shop</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 ">
+                <h1 class="fs-1 fw-bold">Fresh fruits shop</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12 col-lg-3 ">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control py-3 px-2" placeholder="Keywords" aria-label="Recipient's username"
+                        aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><i class="ri-search-line"></i></span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 ">
+                
+            </div>
+            <div class="col-12 col-lg-3 ">
+                <div class="services d-flex justify-content-between p-3 rounded-3">
+                    <label for="Default">Default Sorting: &nbsp;</label>
+                    <select name="Default" id="">
+                        <option value="1">Nothing</option>
+                        <option value="2">Popularity</option>
+                        <option value="3">Organic</option>
+                        <option value="4">Fantastic</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-lg-3 ">
+                <div class="row">
+                    <div class="col-lg-12  my-3">
+                        <h4 class="fw-bolder my-2">Catagories</h4>
+                        <div class="row">
+                            <div class="col-lg-12 d-flex justify-content-between">
+                                <p class="pr-clr"> <i class="ri-apple-fill pr-clr fw-semibold"></i>&nbsp;Apple</p>
+                                <p>( 3 )</p>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-between">
+                                <p class="pr-clr"> <i class="ri-apple-fill pr-clr fw-semibold"></i>&nbsp;Oranges</p>
+                                <p>( 2 )</p>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-between">
+                                <p class="pr-clr"> <i class="ri-apple-fill pr-clr fw-semibold"></i>&nbsp;Strawberrys</p>
+                                <p>( 4 )</p>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-between">
+                                <p class="pr-clr"> <i class="ri-apple-fill pr-clr fw-semibold"></i>&nbsp;Banana</p>
+                                <p>( 2 )</p>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-between">
+                                <p class="pr-clr"> <i class="ri-apple-fill pr-clr fw-semibold"></i>&nbsp;Pumpkin</p>
+                                <p>( 1 )</p>
+                            </div>
+
+                        </div>
+                        <div class="row gy-2 my-3">
+                            <h4 class="fw-bolder">Additional</h4>
+                            <div class="col-lg-12">
+                                <input type="radio"><label for="radio">&nbsp; Organic</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="radio"><label for="radio">&nbsp; Fresh</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="radio"><label for="radio">&nbsp; Sales</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="radio"><label for="radio">&nbsp; Discount</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="radio"><label for="radio">&nbsp; Expired</label>
+                            </div>
+
+
+                        </div>
+
+                        <div class="row px-2 my-4">
+                            <h4 class="fw-bolder">Featured</h4>
+                            <div class="row my-1">
+                                <div class="col-lg-5 p-0 d-flex justify-content-center align-items-center">
+                                    <img src="/img/featur-1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-lg-7 ">
+                                    <p class="fw-bold my-0">Big Banana</p>
+                                    <p class="my-1">⭐⭐⭐⭐ &star;</p>
+                                    <p class="fs-5 my-0"><b>2.99 $</b> &nbsp;<strike class="text-danger"><b>4.11 $</b>
+                                        </strike></p>
+                                </div>
+                            </div>
+                            <div class="row  my-1">
+                                <div class="col-lg-5 p-0 d-flex justify-content-center align-items-center">
+                                    <img src="/img/featur-1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-lg-7 ">
+                                    <p class="fw-bold my-0">Big Banana</p>
+                                    <p class="my-1">⭐⭐⭐⭐ &star;</p>
+                                    <p class="fs-5 my-0"><b>2.99 $</b> &nbsp;<strike class="text-danger"><b>4.11 $</b>
+                                        </strike></p>
+                                </div>
+                            </div>
+                            <div class="row  my-1">
+                                <div class="col-lg-5 p-0 d-flex justify-content-center align-items-center">
+                                    <img src="/img/featur-1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-lg-7 ">
+                                    <p class="fw-bold my-0">Big Banana</p>
+                                    <p class="my-1">⭐⭐⭐⭐ &star;</p>
+                                    <p class="fs-5 my-0"><b>2.99 $</b> &nbsp;<strike class="text-danger"><b>4.11 $</b>
+                                        </strike></p>
+                                </div>
+                            </div>
+                            <button class="btn btn-outline-warning rounded-5 py-2 my-2">Read More</button>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="https://themewagon.github.io/fruitables/img/banner-fruits.jpg" alt=""
+                                    class="img-fluid rounded-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-9 p-3">
+                <div class="row gy-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card d-flex justify-content-center align-items-center overflow-hidden border-1 border-warnings position-relative"
+                            style="width: 100%;">
+                            <div class="badge-top-left position-absolute top-0 start-0">
+                                <p class="bg-warning rounded-3 mx-1 my-1 px-3 py-1 text-white">Fruits</p>
+                            </div>
+                            <div class="div border  overflow-hidden">
+
+                                <img src="/img/fruite-item-1.jpg" class="card-img-top img-scale " alt="grapes">
+                            </div>
+
+                            <div class="card-body text-center ">
+                                <h4 class="card-title">Grapes</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                                    eiusmod te
+                                    incididunt</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 my-2">
+                                        <h4 class="text-center">$4.99 / kg</h4>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12  my-2">
+                                        <a href="#" class="btn btn-outline-warning rounded-5 px-3"><i
+                                                class="ri-shopping-bag-2-fill"></i>Cart</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container d-flex justify-content-center my-3">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">6</a></li>
+
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="py-4 mt-5">
+        <div class="container">
+            <div class="row d-flex align-items-center mb-3 mt-5">
+                <div class="col-lg-4 col-md-12">
+                    <h1 class="pr-clr fw-bolder fs-1 my-0 py-0">Fruitables</h1>
+                    <p class="pr-clr">Fresh Products</p>
+                </div>
+                <div class="col-lg-4 col-md-12 py-3 ">
+                    <div class="searchbar position-relative border-warnings rounded-5">
+                        <input type="text" class="form-control rounded-5  position-relative px-2 py-3"
+                            aria-label="Dollar amount (with dot and two decimal places)">
+                        <span
+                            class="btn bg-primary-clr border border-2 rounded-5 pr-clr position-absolute end-0 top-0 px-5 py-3">Subscribe</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-end d-flex justify-content-end align-items-center">
+                    <p><i class="ri-twitter-fill pr-clr fs-4 p-2 mx-2 border-warnings rounded-circle soc-icons"></i></p>
+                    <p><i class="ri-facebook-fill pr-clr fs-4 p-2 mx-2 border-warnings rounded-circle soc-icons"></i>
+                    </p>
+                    <p><i class="ri-youtube-fill pr-clr fs-4 p-2 mx-2 border-warnings rounded-circle soc-icons"></i></p>
+                    <p><i class="ri-linkedin-fill pr-clr fs-4 p-2 mx-2 border-warnings rounded-circle soc-icons"></i>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="border-warnings border-1 opacity-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="first text-white my-4">
+                            <h4 class="fw-bold pb-2">Why People Like us!</h4>
+                            <p class="anchor-text lh-lg mb-4">typesetting, remaining essentially unchanged. It was
+                                popularised in the
+                                1960s with
+                                the like Aldus
+                                PageMaker including of Lorem Ipsum.</p>
+                            <button class="btn btn-outline-warning rounded-5 py-2 px-3">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="first text-white d-flex flex-column g-2">
+                            <h4 class="fw-bold pb-2">Shop Info</h4>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">About Us</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Contact Us</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Privacy Policy</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Terms & Conditions</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Return Policy</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">FAQs & Help</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="first text-white d-flex flex-column g-lg-2">
+                            <h4 class="fw-bold pb-2">Account</h4>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">My Account</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Shop Details</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Shopping Cart</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Wishlist</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">Order History</a>
+                            <a href="#" class="anchor-hover text-decoration-none anchor-text">International Orders</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="first text-white"></div>
+                        <h4 class="text-white fw-bold pb-2">Contact</h4>
+                        <p class="anchor-text anchor-hover">Email: Example@gmail.com</p>
+                        <p class="anchor-text anchor-hover">Address: 1429 Netus Rd, NY 48247</p>
+                        <p class="anchor-text anchor-hover">Phone: +0123 4567 8910</p>
+                        <p class="anchor-text anchor-hover">Payment Accepted</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="container my-3">
+            <hr class="border-warnings border-1 opacity-100">
+            <div class="row">
+                <div class="col-lg-12 text-center text-white">
+                    <p><b>Made With &hearts; By <span class="fs-3 fw-bold">Mujju</span> </b></p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script>
+<script src="/js/popper.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(window).scroll(function () {
+
+        let scroll = $(window).scrollTop();
+        $(".showing").text(scroll)
+        if (scroll > 200) {
+            $("#naving").slideDown("slower")
+        }
+        else {
+            $("#naving").slideUp("slower")
+        }
+    })
+
+</script>
+
+</html>
